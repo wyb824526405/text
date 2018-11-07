@@ -1,0 +1,59 @@
+*{margin: 0;padding: 0;color: #323232;font-family: "微软雅黑";text-decoration: none;}
+div{box-sizing: border-box;border: }
+img{display: block}
+.guanyu img{float: right;}
+.guanyu{clear: both;}
+.yemei{width: 1366px;margin: 0 auto;overflow: hidden;}
+.juzhong{width: 1200px;height: 100px; margin: 0 auto;overflow: hidden;}
+.dianhua{padding-top: 25px;}
+.logo{float: left;margin: 30px 0;}
+.daohang a:hover{color:#1f92cb;}
+.daohang{margin-top: 0px;position: relative;top: -50px;}
+.daohang a:nth-child(8){padding: 0px;}
+.daohang a{padding-right: 40px;}
+.daohang{float: right;}
+.qingchu{clear: both;}
+.dianhua{float: right;}
+.dianhua a{color:#1f92cb;}
+.dianhua img{float: left;padding-top: 5px;padding-right: 10px;}
+.banner{margin: 0 auto;width: 1366px;margin-bottom: 70px;}
+.kuangjia ul li{width: 220px;height: 50px;border: solid 1px #BDBDBD;text-align: center;line-height: 50px;margin-left: 360px;}
+.kuangjia li:nth-child(1){background-color: #1c8ecc;color: white;}
+li{list-style: none;font-size: 20px;}
+.hx{float: left;position: relative;top: -300px;right: -600px;border-bottom:solid 1px gray;padding-bottom: 20px;width: 965px;}
+.guanyu{width: 910px;float: left;}
+h2{font-size: 18px;margin-top: 30px;}
+h3{font-size: 14px;width: 500px;line-height:24px;text-align: justify;text-indent: 18px;color: #848484;font-weight: normal;}
+.guanyu img{position: absolute;left: 652px;top: -190px;}
+.guanyu h2{position: relative;top: -300px;right: -600px;}
+.guanyu div{position: relative;top: -300px;right: -600px;margin-top: 20px;}
+.huaxin{width: 910px;float: right;margin-bottom: 50px;}
+.huaxin h2{position: relative;top: -100px;left: 60px;}
+.huaxin h3{position: relative;top: -80px;left: 60px;}
+.huaxin img{position: absolute;left: 600px;top: 692px;}
+.guanyu2{width: 910px;float: left;}
+h2{font-size: 18px;margin-top: 30px;}
+h3{font-size: 14px;width: 500px;line-height:24px;text-align: justify;text-indent: 18px;color: #848484;font-weight: normal;}
+.guanyu2 img{position: absolute;left: 652px;top: -190px;}
+.guanyu2 h2{position: relative;top: -100px;right: -600px;}
+.guanyu2 div{position: relative;top: -100px;right: -600px;margin-top: 20px;}
+.huaxin2{width: 910px;float: right;margin-bottom: 50px;}
+.huaxin2 h2{position: relative;top: 60px;left: 60px;}
+.huaxin2 h3{position: relative;top: 80px;left: 60px;}
+.huaxin2 img{position: absolute;left: 600px;top: 1050px;}
+.gy3{width: 910px;float: left;}
+h2{font-size: 18px;margin-top: 30px;}
+h3{font-size: 14px;width: 500px;line-height:24px;text-align: justify;text-indent: 18px;color: #848484;font-weight: normal;}
+.gy3 img{position: absolute;left: 652px;top: -530px;}
+.gy3 h2{position: relative;top: 70px;right: -600px;}
+.gy3 div{position: relative;top: -290px;right: -600px;margin-top: 380px;}
+.yejiao{height: 120px;width: 1366px;margin: 0 auto;background-color: #187ec6;margin-top:50px;position: relative;top: 720px;}
+.fuwu{float: left;}
+.fuwu h6{line-height: 15px;margin-top: 20px;color: white;margin-right: 120px;margin-left: 20px;position: relative;top: -440px;left: -550px;}
+.dizhi h6{margin-top: 40px;line-height: 24px;color: white;}
+.dizhi h6:nth-child(2){margin-top: 0;}
+.dizhi{float: right;margin-right: 400px;position: absolute;top: 0px;left: 500px;width: 1000px;}
+a:hover{color: #1f92cb;}
+
+
+
