@@ -8,9 +8,49 @@
 <title>悠风儿</title>
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-iocn" />
 <link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="css/video.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+/*顶部导航*/
+#fixed_header { 
+position:fixed; 
+z-index:1; 
+top:0; 
+width:100%; 
+background-color:#465c71; 
+} 
+#navi { 
+margin:0 auto; 
+text-align:right; 
+height:40px;
+line-height: 40px;
+} 
+#navi ul li { 
+list-style-type:none; 
+display:inline;
+padding:10px 30px 10px 30px ;
+} 
+#navi ul li a{
+	color: #fff;
+}
+/*顶部导航*/
+</style>
+
 </head>
 
 <body>
+<!-- 顶部导航 -->
+<div id="fixed_header"> 
+<div id="navi"> 
+<ul> 
+<li><a href="#">首页</a></li> 
+<li><a href="#">地图</a></li> 
+<li><a href="#">游戏</a></li> 
+<li><a href="#">介绍</a></li> 
+</ul> 
+</div> 
+</div>
+<!-- 顶部导航 --> 
+
 <!-- 轮播 -->
 <div class="middle_right">
     <div id="lunbobox">
@@ -47,13 +87,15 @@
         </ul>
         <div class="clear"></div>
         <div class="tab tab1 show">
-           	 僵尸突袭
+           	 <!-- 弹窗视频 data-menu="480 720 1080"切换清晰度 -->
+           	 <div class="m-video" data-src="shipin/mssjbfwz.mp4" style="width: 200px;text-align: center;cursor: pointer;"><img class="syimg" alt="僵尸突袭" src="img/jstx.jpg"></div>
+           	<div class="downloadDT"><a href="img/zfb.jpg" download="download">下载僵尸突袭最新版</a></div>
         </div>
         <div class="tab tab1">
            	 地图介绍
         </div>
         <div class="tab tab1">
-           	 模式介绍
+        	模式介绍
         </div>
         <div class="tab tab1">
            	 技能介绍
@@ -69,6 +111,8 @@
 <hr/>
 <div class="bottom">
 	想一起玩的可以加入我们，有什么建议加群讨论哦~ 欢迎加入QQ群：165892412
+	<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=2afd894b86b4d008400c40039e7f5c2904cca1ddc4632b0419e1c677ece5063a">
+	<img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="魔兽WE讨论群" title="魔兽WE讨论群"></a>
 </div>
 <!-- 底部 -->
 
@@ -85,5 +129,6 @@
 <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
 <script src="js/index.js" type="text/javascript"></script>
 <script src="js/lunbo.js" type="text/javascript"></script>
+<script src="js/pingzi_video.js" type="text/javascript"></script>
 </body>
 </html>
